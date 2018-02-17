@@ -15,5 +15,7 @@
 	<preference name="permissions" value="none"/>
 	<preference name="fullscreen" value="true"/>
 
+	<access origin="http://code.jquery.com" subdomains="true" />
+
 	<icon src="icon.png"/>
 </widget>
