@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+}
+
+header {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: skyblue;
+  width: 90%; 
+  margin: auto;
+}
+
+img {
+  grid-column: 1 / span 1;
+  display: flex;
+  padding: 1em 1em 1em 1em;
+}
+
+form {
+  padding: 1em 1em 1em;
+}
+
+label {
+  display: flex;
+  grid-column: 2 / span 2;
+  padding-bottom: .5em;
+}
+
+label[for=catQuestion] {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+a {
+  text-align: center;
+}

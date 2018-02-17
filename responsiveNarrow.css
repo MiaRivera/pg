@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+  #all {
+    width: 90%;
+    font-size: 125%;
+  }
+
+  .container {
+    display: block;
+    width: 95%;
+    height: auto;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+  }
+
+  label {
+    display: block;
+    margin: auto;
+  }
+
+  label[for=catQuestion] {
+    display: block;
+  }
+
+  #myHeader .ui-title {
+    white-space: normal;
+    overflow: visible;
+  }
+
+}
+
