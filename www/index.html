@@ -2,14 +2,17 @@
 <head>
 	<meta charset="utf-8">
 	<title>Page 2: jQuery Mobile</title>
-	<link rel="stylesheet" href="themes/BluePurple_ThemeRoller.min.css" />
-	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/themes/BluePurple_ThemeRoller.min.css" />
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
 	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
-	<link rel="stylesheet" href="responsiveNarrow.css" />
+	<link rel="stylesheet" href="css/responsiveNarrow.css" />
 	
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="phonegap.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 	<script type="text/javascript">
+		app.initialize();
 		function calcSavings() {
 			var deposit = parseInt($("#inputDeposit").val());
 			var percent = parseFloat($("#inputRate").val());

@@ -16,6 +16,7 @@
 	<preference name="fullscreen" value="true"/>
 
 	<access origin="http://code.jquery.com" subdomains="true" />
+	<access />
 
 	<icon src="icon.png"/>
 </widget>
