@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--config.xml reference: http://docs.phonegap.com/phonegap-build/configuring/" -->
+<widget
+	xmlns="http://www.w3.org/ns/widgets"
+	xmlns:gap="http://phonegap.com/ns/1.0"
+	id="app.phonegap.mia"
+	version="1.0"
+>
+
+	<name>Mia's Phonegap App</name>
+	<description>A simple phonegap app to calculate savings balance with interest</description>
+	
+	<author>Mia Rivera</author>
+
+	<preference name="permissions" value="none"/>
+	<preference name="fullscreen" value="true"/>
+
+	<icon src="icon.png"/>
+</widget>
