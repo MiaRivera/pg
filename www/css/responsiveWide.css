@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: green;
 }
 
 header {
@@ -14,13 +14,8 @@ header {
   margin: auto;
 }
 
-img {
-  grid-column: 1 / span 1;
-  display: flex;
-  padding: 1em 1em 1em 1em;
-}
-
 form {
+  background-color: blue;
   padding: 1em 1em 1em;
 }
 
@@ -30,11 +25,3 @@ label {
   padding-bottom: .5em;
 }
 
-label[for=catQuestion] {
-  font-size: 1.5em;
-  text-decoration: underline;
-}
-
-a {
-  text-align: center;
-}
